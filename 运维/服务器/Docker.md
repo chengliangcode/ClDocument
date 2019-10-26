@@ -1,6 +1,6 @@
 # Docker
 
-## CentOS 7下安装docker及docker-compose
+## 安装docker及docker-compose
 
 ### docker
 1.下载yum工具并添加yum源
