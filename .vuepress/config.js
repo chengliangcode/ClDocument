@@ -1,7 +1,9 @@
 module.exports = {
     title: 'CL',
     description: '乘凉的个人文档',
+    base:'/',
     port: 8081,
+    host:'127.0.0.1',
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }]
     ],

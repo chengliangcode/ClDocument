@@ -1,4 +1,21 @@
 # CentOS
+## 配置alibaba yum源
+1.备份原来的yum源
+```
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+```
+2.下载阿里云的CentOS-Base.repo 到/etc/yum.repos.d/
+```
+curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+```
+3.清理缓存
+```
+yum clean all
+```
+4.生成新的缓存
+```
+yum makecache
+```
 ## CentOS初始化配置及工具安装
 1.重启网卡联网，一般安装好的虚拟机，默认都是动态分配的ip只要重启网卡联网就可以了
 ```
