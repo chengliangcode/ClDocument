@@ -30,7 +30,8 @@ module.exports = {
             ],
             "/运维/服务器/": [
                 'CentOS 7',
-                'Docker'
+                'Docker',
+                "服务搭建"
             ]
         }
     },
